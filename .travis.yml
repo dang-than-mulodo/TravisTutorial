@@ -1,2 +1,2 @@
 language: objective-c
-script: travis/script.sh
+script: script.sh
