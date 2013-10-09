@@ -395,7 +395,6 @@
 				INFOPLIST_FILE = "TravisTutorial/TravisTutorial-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = "";
-				"VALID_ARCHS[sdk=iphonesimulator*]" = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -418,7 +417,6 @@
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = "";
-				"VALID_ARCHS[sdk=iphonesimulator*]" = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
