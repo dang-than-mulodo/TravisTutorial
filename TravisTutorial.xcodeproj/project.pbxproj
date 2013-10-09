@@ -394,6 +394,7 @@
 				GCC_PREFIX_HEADER = "TravisTutorial/TravisTutorial-Prefix.pch";
 				INFOPLIST_FILE = "TravisTutorial/TravisTutorial-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -414,6 +415,7 @@
 				INFOPLIST_FILE = "TravisTutorial/TravisTutorial-Info.plist";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
